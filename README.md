@@ -7,6 +7,6 @@ pip install colorlog
 
 ## logger
 ```
-from conf import logconf
+from base_conf import logconf
 logger = logconf.Logger(__name__)
 ```
