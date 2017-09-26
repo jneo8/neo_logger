@@ -2,11 +2,11 @@
 
 ## install
 ```
-pip install colorlog
+pip install git+https://github.com/jneo8/base_conf
 ```
 
 ## logger
 ```
-from base_conf import logconf
+from logger import logconf
 logger = logconf.Logger(__name__)
 ```
