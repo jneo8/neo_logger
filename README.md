@@ -2,11 +2,11 @@
 
 ## install
 ```
-pip install git+https://github.com/jneo8/base_conf
+pip install git+https://github.com/jneo8/neo_logger
 ```
 
 ## logger
 ```
-from logger import logconf
-logger = logconf.Logger(__name__)
+from neologger import logger
+logger = logger.Logger(__name__)
 ```
